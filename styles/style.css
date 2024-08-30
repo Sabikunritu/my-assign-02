@@ -1,0 +1,549 @@
+* {
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+  }
+  /*-------------------- navbar style start -----------  */
+  header {
+    background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17) 0%,
+      rgba(20, 19, 19, 0.859) 100%
+    );
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 57px;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    gap: 57px;
+    padding: 8px;
+  }
+  nav ul li {
+    list-style-type: none;
+    padding: 5px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .i_logo {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+  }
+  .home_hover {
+    padding: 4px;
+    gap: 10px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background-color: red;
+  }
+  /*-------------------- navbar style end -----------  */
+  
+  /*-------------------- banner style start -----------  */
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .banner_content h1 {
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 93.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .banner_content p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .btn {
+    padding: 16px 40px 16px 40px;
+    gap: 10px;
+    border-radius: 42px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+  }
+  .shape {
+    font-family: maimi !important;
+    font-family: Miama;
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 93.6px;
+    text-align: left;
+  }
+  .banner_img {
+    position: relative;
+  }
+  .btn_cap {
+    position: absolute;
+    margin-left: 280px;
+    background: rgba(63, 36, 36, 0.407);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    z-index: 1;
+  }
+  .btn_text h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+  }
+  .btn_text p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 3px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .btn_cap_2 {
+    background: rgba(63, 36, 36, 0.407);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    bottom: 300px;
+    right: -90px;
+  }
+  .btn_cap_tow_f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+  .color {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+  }
+  .btn_club {
+    background: red;
+    border: none;
+  }
+  /*-------------------- banner style end -----------  */
+  /*-------------------- cards style start -----------  */
+  #cards {
+    padding: 40px 0px;
+    background: black;
+  }
+  .card_head_text h3,
+  .bmi_head_text h3,
+  .team_head_text h3,
+  .fitness_head_text h3 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: center;
+  }
+  .card_head_text p,
+  .bmi_head_text p,
+  .team_head_text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .cards_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .card img {
+    border-radius: 50%;
+  }
+  .card h4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    padding: 20px 0px;
+  }
+  .card p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .run_card {
+    background: hsl(0, 0%, 13%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    padding: 42px;
+    margin: 30px 0px;
+    margin: 120px;
+  }
+  .run_text h3 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: left;
+    padding: 20px 0px;
+  }
+  .run_text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .run_card_img img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+  }
+  /*-------------------- cards style end -----------  */
+  /*-------------------- bmi style start -----------  */
+  #bmi {
+    background: black;
+  }
+  .bmi_items {
+    background: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+  }
+  .bmi_head_text p {
+    padding-bottom: 50px;
+  }
+  .bmi_chat_text h4 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33.6px;
+    text-align: left;
+    padding: 30px;
+  }
+  .bmi_chat_text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+  }
+  table,
+  td,
+  tr,
+  th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  th {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  input,
+  select {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  select {
+    padding: 10px 150px 10px 10px;
+    text-align: left;
+  }
+  .factor {
+    padding-right: 270px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .btn_s {
+    background: red;
+    border: none;
+    margin-top: 20px;
+  }
+  /*-------------------- Bmi style end -----------  */
+  /*-------------------- Fitness style start -----------  */
+  #fitness {
+    background: rgb(132, 130, 130);
+    padding: 20px 0px;
+  }
+  .fitness_cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .fitness_items {
+    background: red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 18px;
+  }
+  .fitness_items img {
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .fitness_head_text {
+    padding: 40px 0px;
+  }
+  .fitness_items h4 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33.6px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .fitness_items p {
+    padding-bottom: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.612);
+  }
+  /*-------------------- Fitness style end -----------  */
+  /*-------------------- team style start -----------  */
+  #team {
+    background: black;
+  }
+  .team_head_text h3 {
+    padding-top: 40px;
+  }
+  .team_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    row-gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .team_card {
+    text-align: center;
+    position: relative;
+  }
+  .team_card_text {
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+  }
+  .team_card_text h5 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .team_card_text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  .team_card img {
+    width: 326.67px;
+    height: 272px;
+    max-width: 100%;
+    border-radius: 18px;
+  }
+  /*-------------------- team style end -----------  */
+  /*-------------------- footer style start -----------  */
+  .footers {
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    grid-column: 40px;
+    padding: 30px 0px;
+  }
+  .footer_logo a {
+    text-decoration: none;
+  }
+  .footer_logo a i {
+    color: red;
+  }
+  .footer_logo p {
+    padding: 10px 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .footer_text h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    padding: 20px 0px;
+  }
+  .footer_text li {
+    list-style-type: none;
+    padding: 5px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .line {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .copyright_text {
+    background: black;
+    text-align: center;
+  }
+  .copyright_text h4 {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 30px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+  }
+  /*-------------------- footer style end -----------  */
+  @media only screen and (max-width: 576px) {
+    nav {
+      flex-direction: row;
+      display: block;
+      align-items: center;
+    }
+    .banner {
+      flex-direction: row;
+      display: block;
+      align-items: center;
+      padding-left: 20px;
+    }
+    .cards_items {
+      display: block;
+      flex-direction: row;
+    }
+    .card p{
+      padding-bottom: 20px;
+    }
+    .run_card {
+      display: block;
+      flex-direction: row;
+      margin: 0px auto;
+      text-align: center;
+    }
+    .run_card_img img {
+      margin: 0 auto;
+      width: 100%;
+    }
+    .fitness_cards,
+    .bmi_items {
+      display: block;
+      flex-direction: row;
+      margin: 0px auto;
+    }
+    .team_cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .team_card_text {
+      left: 60px;
+    }
+    .btn_cap_2 {
+      right: 60px;
+    }
+    .btn_cap {
+      left: -190px;
+      top: 970px;
+    }
+    .fitness_items {
+      margin: 10px;
+    }
+    .footers {
+      display: block;
+      flex-direction: row;
+      margin: 0px auto;
+      padding-left: 20px;
+    }
+    nav,nav ul{
+      flex-direction: column;
+    }
+  }
+  
